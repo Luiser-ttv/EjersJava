@@ -23,6 +23,15 @@ if(numBellotas >= 40 && numBellotas <= 60 ){
 return false;
     }
     
+    public boolean multas(int velocidad, boolean birthday){
+        if(birthday){
+    return true;
+}
+if(velocidad >= 40 && velocidad <= 60 ){
+    return true;
+}
+return false;
+    }
    
     /**
      * @param args the command line arguments
